@@ -1,131 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Suprita'sProtpolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(2, 2, 59);
-            color: aliceblue;
-            font-family: 'poppin', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(7, 7, 90);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: aliceblue;
-        }
-
-        nav ul li a:hover {
-            color: #c346f5;
-            font-size: 1.04rem;
-        }
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstsection {
-            display: flex;
-            justify-content: space-around;
-            margin: 23px 0;
-        }
-
-        .leftsection {
-            font-size: 3rem;
-            margin: 70px 0;
-            margin-top: 150px;
-
-        }
-
-        .rightsection img {
-            width: 150%;
-            height: 100%;
-        }
-
-        .purple {
-            color: #c346f5;
-        }
-
-        #element {
-            color: #c346f5;
-        }
-        .secondsection{
-            max-width: 80vw;
-            margin: auto;
-        }
-        hr{
-            background-color: #c346f5;
-        }
-    </style>
+    <title>Suprita's portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+    body{
+        background-color: rgb(4, 4, 61);
+    }
+    .navbar{
+        background-color: rgb(7, 7, 117);
+    }
+    
+    #navbarTogglerDemo01 a{
+        color: aliceblue;
+    }
+    #navbarTogglerDemo01 a:hover{
+        color: rgb(8, 137, 250);
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .font-color{
+        color: rgb(129, 7, 243);
+        font-size: 60px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .hoo{
+        color: aliceblue;
+        font-size: 50px;
+    }
+    .hoo1{
+        margin-top: 150px;
+    }
+    img{
+        height: 400px;
+        width: 400px;
+    }
+    #element{
+        color: rgb(129, 7, 243);
+        font-size: 60px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .line{
+        color: aliceblue;
+        height: 10px;
+    }
+    .hr-block{
+        color: rgb(163, 207, 247);
+    }
+    .lab{
+        color: rgb(198, 193, 202);
+    }
+    .lins{
+        color: aliceblue;
+    }
+    .font{
+        font-family: 'Courier New', Courier, monospace;
+        color: aliceblue;
+        font-size: 10px;
+    }
+</style>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="left">
-                Suprita's portfolio
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Suprita's portfolio</a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">contact me</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <section>
+      <div class="container text-start  hoo1">
+        <div class="row">
+          <div class="col-7 hoo"> Hi, my name is <span class="font-color">Suprita</span>
+            and I am passionate in  <span id="element"></span>
+          </div>
+          <div class="col-5 text-end">
+<img src="images/download-removebg-preview.png" > 
+          </div>
+          
+        </div>
+      </div>
+      </section>
+      <section>
+        <hr class="line">
+        
+        <div class="container hr-block">
+            <label class="lab">What I have done in far</label>
+        <h3> Work experience</h3>
+        <div class="row">
+            <div class="col-3 text-center">
+                <img src="images/clg.png" style="height: 50px; width: 50px;">
             </div>
-            <div class="right">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li> <a href="#">Projects</a></li>
-                    <li><a href="#">Contact me</a></li>
-                </ul>
+            <div class="col-3 text-center">
+                <img src="images/lcc.png" style="height: 50px; width: 50px;">
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="firstsection">
-            <div class="leftsection">
-                Hi, my name is <span class="purple">Suprita</span>
-                <div>and Im a passionate in</div>
-                <span id="element"></span>
+            <div class="col-3 text-center">
+                <img src="images/linkedin-removebg-preview.png" style="height: 50px; width: 50px;">
             </div>
-            <div class="rightsection">
-                <img src="images/download-removebg-preview.png">
+            <div class="col-3 text-center">
+                <img src="images/youtube.png" style="height: 50px; width: 50px;">
             </div>
-        </section>
-        <hr>
-        <section class="secondsection">
-            <h1>Work experience</h1>
-        </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        let typed = new Typed('#element', {
-            strings: ['Web developer.', 'Android developer.'],
-            typeSpeed: 50,
-        });
-    </script>
-</body>
+            
+        </div>
+<hr class="lins">
+<div class="row">
+    <div class="col-3 text-center">
+            <div class="vr" style="height: 100px;"></div>
+          </div>
+          <div class="col-3 text-center">
+            <div class="vr" style="height: 100px;"></div>
+          </div>
+          <div class="col-3 text-center">
+            <div class="vr" style="height: 100px;"></div>
+          </div>
+          <div class="col-3 text-center">
+            <div class="vr" style="height: 100px;"></div>
+          </div>
+    </div>
+    <div class="row">
+        <div class="col-3 text-center">
+            <h5>Front-end Developer</h5>
+            <p class="font">A front-end developer builds the front-end portion of websites and web applications—the part users see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+        </div>
+        <div class="col-3 text-center">
+            <h5>Java Developer</h5>
+            <p class="font">Java developers use their knowledge to create, adapt, monitor and repair software across a variety of platforms, and Java developers often work closely with web developers and designers and software engineers to create fully integrated programs and applications for their clients.</p>
+        </div>
+        <div class="col-3 text-center">
+            <h5>Back-end Developer</h5>
+            <p class="font">Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, security, and other server-side functions that you cannot see.</p>
+        </div>
+        <div class="col-3 text-center">
+            <h5>JSP Developer</h5>
+            <p class="font">A front-end developer builds the front-end portion of websites and web applications—the part users see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+        </div>
+    </div>
+</div>
+        </div>
+      </section>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
+      <script>
+        let typed = new Typed('#element', {
+          strings: ['Web developer.', 'Android developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
 </html>
